@@ -18,4 +18,10 @@ $games = [
      'punti_ospite' => 78]
 ];
 
+// Stampo le partite
+foreach ($games as $game){
+    echo $game ['squadra_casa']. '-' .$game ['squadra_ospite']. ' | ' .$game ['punti_casa']. '-' .$game ['punti_ospite']. '<br>';
+
+};
+
 ?>
